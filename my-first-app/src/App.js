@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 import Subscription from './components/Subscription';
+import NewSubscription from './components/NewSubscription/NewSubscription.js';
+import Container from './templates/Container';
 
 function App() {
   let subscrptions=[
@@ -26,11 +28,12 @@ function App() {
   ]
 
   return (
-    <div>
+    <Container>
+      <NewSubscription />
       <Subscription date={subscrptions[0].date} title={subscrptions[0].title} amount={subscrptions[0].amount}/>
       <Subscription date={subscrptions[1].date} title={subscrptions[1].title} amount={subscrptions[1].amount}/>
       <Subscription date={subscrptions[2].date} title={subscrptions[2].title} amount={subscrptions[2].amount}/>
-    </div>
+    </Container>
   );
 
 }
