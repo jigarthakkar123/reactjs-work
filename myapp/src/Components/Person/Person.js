@@ -16,7 +16,7 @@ class Person extends Component{
 	}
 	render(){
 		return(
-			<div className="PersonBox">
+			<div className="PersonBox" onClick={this.props.remove}>
 				<h1>
 					<label className="PersonLabel">Name</label> : {" "}
 					<i>{this.props.name}</i>
