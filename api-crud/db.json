@@ -1,10 +1,28 @@
 {
-    "users":[
-        {
-            "id":"1",
-            "ename":"Jigar Thakkar",
-            "dname":"Training",
-            "location":"Ahmedabad"
-        }
-    ]
+  "users": [
+    {
+      "ename": "Rahul Sanghavi",
+      "dname": "Training",
+      "location": "Ahmedabad",
+      "id": 2
+    },
+    {
+      "ename": "Sunil Khatri",
+      "dname": "Training",
+      "location": "Ahmedabad",
+      "id": 3
+    },
+    {
+      "ename": "Chintan",
+      "dname": "Training",
+      "location": "Surat",
+      "id": 4
+    },
+    {
+      "ename": "Vani",
+      "dname": "Sales",
+      "location": "Baroda",
+      "id": 6
+    }
+  ]
 }
